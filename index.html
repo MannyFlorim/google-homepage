@@ -12,24 +12,22 @@
 <body>
     <!-- upper nav bar -->
     <nav id="navbar" class="navbar"> 
-        <ul class="topNav">
+        <ul class="topNavLeft">
             <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiS05Ckh4rqAhWJg-AKHQ__AhgQkNQCCAM&url=https%3A%2F%2Fabout.google%2F%3Ffg%3D1%26utm_source%3Dgoogle-US%26utm_medium%3Dreferral%26utm_campaign%3Dhp-header&usg=AOvVaw13L0SpN0L7ycx9R0_i4R2S" id="about">About</a></li>
 
-            <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiS05Ckh4rqAhWJg-AKHQ__AhgQpMwCCAQ&url=https%3A%2F%2Fstore.google.com%2FUS%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-US&usg=AOvVaw0wvkRBURf91YdMQCXOelDf" id="store">Store</a></li>
+            <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&sou rce=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiS05Ckh4rqAhWJg-AKHQ__AhgQpMwCCAQ&url=https%3A%2F%2Fstore.google.com%2FUS%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-US&usg=AOvVaw0wvkRBURf91YdMQCXOelDf" id="store">Store</a></li>
+        </ul>
 
-     
+
+     <ul class="topNavRight">
             <li><a href="https://mail.google.com/mail/?tab=wm&ogbl" id="gmail">Gmail</a></li>
 
             <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl" id="images">Images</a></li>
 
             <li>
-                <div class="fa fa-th"></div>
-            </li>
-
-            <li>
-                <span class="share-button">Share</span>
-            </li>
-
+                <!-- <div class="fa fa-th"></div> -->
+                <a href="https://www.google.com/intl/en/about/products?tab=wh" class="fa fa-th"></a>
+            </li>           
             
         </ul>
 
@@ -37,29 +35,37 @@
 
     <!-- Searchbox -->
 
-<main class="googlebox">
-    <div class="searchbox">
+<div class="googlebox">    
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
         <input type="text" autofocus placeholder="Search Google or type a url">
 
-    </div>
-<div>
-    <form id="searchbar" action=""></form>
+        <div class="buttons">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+
+        </div>   
+   
 </div>
 
-    <div id="buttons">
-        <input id="googlesearch" type="submit" value="Google Search">
-        <input id="lucky" type="submit" value="I'm Feeling Lucky">
+<!-- footer Links -->
 
-    </div>
-</main>
+    <footer class="footLinks">
+        <!-- left links -->
+        <ul class="leftLinks">
+            <li><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
 
-    <footer id="footNavbar">
-        <ul>
-            <li><a href="advertising">Advertising</a></li>
-            <li><a href="Business">Business</a></li>
-            <li><a href="How Search Works">How Search Works</a></li>
-            <li><a href="Privacy">Privacy</a></li>
+            <li><a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a></li>
+
+            <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>            
+        </ul>
+        <!-- right links -->
+        <ul class="righLinks">
+            <li><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
+
+            <li><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+
+            <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+
         </ul>
 
     </footer>

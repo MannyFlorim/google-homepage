@@ -1,1 +1,2 @@
-started mini project. Basic html layout in progress
+The Odin Project
+google-hompage project

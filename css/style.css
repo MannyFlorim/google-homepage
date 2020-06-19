@@ -1,7 +1,94 @@
 ul {
     list-style: none;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #5F6368
+}
+
+body {
+    margin: 0;
+
+}
+
 a {
     text-decoration: none;
-    color: #5F6368;
+    ;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* upper navbar */
+
+.topNavRight {
+float: right;
+margin-right: 30px;
+}
+
+.topNavRight li {
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    padding: 8px 10px ;
+}
+
+.topNavLeft {
+    float: left;
+   margin-left: 20px;
+}
+
+.topNavLeft li{
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    padding: 8px 10px;
+}
+
+.fa {
+    font-size: 25px;
+    vertical-al  margin-right: 50px;ign:  top;
+     
+}
+
+fa:hover {
+    text-decoration: none;
+}
+
+/* searchbox */
+
+.googlebox {
+    position: absolute;
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+}
+
+.googlebox img {
+    padding: 150px 0 24px 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.googlebox input {
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+    display: block;
+    border-radius: 10em;
+}
+
+
+.googlebox button {
+    border: 1px solid #5F6368 ;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    /* buttons still need to be centered */
+}
+
+/*  footer links*/
+
