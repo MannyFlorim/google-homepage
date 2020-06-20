@@ -9,7 +9,7 @@ ul {
 }
 
 body {
-    margin: 0;
+       margin: 0;
 
 }
 
@@ -50,7 +50,7 @@ margin-right: 30px;
 
 .fa {
     font-size: 25px;
-    vertical-al  margin-right: 50px;ign:  top;
+    margin-right: 50px;
      
 }
 
@@ -61,10 +61,13 @@ fa:hover {
 /* searchbox */
 
 .googlebox {
-    position: absolute;
-    margin-top: 100px;
-    width: 100%;
-    height: 150px;
+    
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
 }
 
 .googlebox img {
@@ -81,14 +84,39 @@ fa:hover {
     border-radius: 10em;
 }
 
-
-.googlebox button {
-    border: 1px solid #5F6368 ;
-    font-size: 13px;
-    font-weight: bold;
-    line-height: 20px;
-    /* buttons still need to be centered */
+#container{
+    display: flex;
+    align-items: center;
+    
 }
 
-/*  footer links*/
 
+
+
+
+/*  footer links*/
+.footLinks {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:40px;   
+    background:rgb(235, 233, 233);
+}
+ 
+.leftLinks a{
+    float: left;
+    display: inline-block;
+    text-align: left;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.rightLinks a{
+    float: right;
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+    padding-top: 10px;
+    
+
+}
